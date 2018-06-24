@@ -1,3 +1,5 @@
+import re
+
 #去符号
 RE_DE_SYMBOL = re.compile(r'[^：“”:"——]+')
 #增减持公司全称
